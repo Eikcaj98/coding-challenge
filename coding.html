@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <link rel="stylesheet" href="coding challenge/coding.css">
+    <meta charset="utf-8">
+    <title>Lim-Home</title>
+  </head>
+  <body>
+
+    <!-- Contenitore body -->
+    <div class="container">
+
+      <!--logo -->
+      <header>
+        <img id="logo" src="logo.png">
+        <span><strong>Taking Booleaners from A to B</strong></span>
+      </header>
+
+      <!-- Menu navigazione -->
+      <nav>
+          <button type="button" name="prenota">Prenota</button>
+          <button type="button" name="termina">Termina Prenotazione</button>
+          <button type="button" name="luci">Accendi Luci</button>
+      </nav>
+
+      <!-- Main - Monopattino disponibili-->
+      <main>
+
+        <!-- Primo Monopattino-->
+        <section class="monopattino">
+          <input type="checkbox" name="monopattino-select" value="booked">
+          <span class="monopattino-name">Monopattino Gino22</span>
+          <span class="distance"><span class="arrow"> </span>Via Marconi - a 220 metri da te</span>
+          <div>Stato carica:</div>
+          <div class="semi-carico"></div>
+        </section>
+
+        <!-- Secondo Monopattino-->
+        <section class="monopattino">
+          <input type="checkbox" name="monopattino-select" value="booked">
+          <span class="scooter-name">Monopattino Mike24</span>
+          <span class="distance"><span class="arrow"> </span>Via Garibaldi - a 420 metri da te</span>
+          <div>Stato carica:</div>
+          <div class="carico"></div>
+        </section>
+
+        <!-- Terzo Monopattino-->
+        <section class="monopattino">
+          <input type="checkbox" name="monopattino-select" value="booked">
+          <span class="monopattino-name">Monopattino Fede154</span>
+          <span class="distance"><span class="arrow"> </span>Via Roma - a 490 metri da te</span>
+          <div>Stato carica:</div>
+          <div class="quasi-scarico"></div>
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
